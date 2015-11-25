@@ -16,12 +16,12 @@ PBF uses Google's Protocol Buffer format, so you'll need to install that. We
 use the `imposm.parser` python library to read OSM PBF files, which only works
 with python 2.7.
 
-To install everything, simply type
+To install everything, simply type:
 
 `./setup.sh`
 
 ## Running the analysis
 
-To run the entire analysis, tyoe
+To run the entire analysis, type:
 
 `make planet-dfs`
