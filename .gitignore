@@ -1,3 +1,4 @@
 # OSM Data
 *.pbf
 *.cson
+*.tsv
