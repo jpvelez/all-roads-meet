@@ -5,7 +5,7 @@ fi
 conda create --name all-roads-meet python=2.7
 source activate all-roads-meet
 if [[ $OSTYPE == 'darwin14' ]]; then
-   brew install protobuf
+   brew install protobuf # not working
 elif [[ $OSTYPE == 'linux-gnu' ]]; then
    sudo aptitude install build-essential python-devel protobuf-compiler libprotobuf-dev
 fi
