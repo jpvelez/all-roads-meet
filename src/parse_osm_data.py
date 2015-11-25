@@ -14,4 +14,8 @@ parser = OSMParser(ways_callback=extract.ways_callback)
 
 parser.parse(sys.argv[1])
 
-print extract.road_ways
+
+for ix, road in enumerate(extract.road_ways):
+    print road
+    if ix == 30:
+        break
