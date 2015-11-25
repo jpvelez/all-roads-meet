@@ -1,1 +1,1 @@
-cat small_graph.txt | ./graph.py
+cat small_graph.txt | src/graph.py
