@@ -2,3 +2,4 @@
 *.pbf
 *.cson
 *.tsv
+.ipynb_checkpoints
