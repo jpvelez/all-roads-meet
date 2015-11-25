@@ -22,6 +22,12 @@ To install everything, simply type:
 
 ## Running the analysis
 
-To run the entire analysis, type:
+We use the [conda package manager](http://conda.pydata.org/docs/) to download
+and manage python packages in a separate virtual environment. Before you can
+run the analysis, you must load the conda env by typing:
+
+`source activate all-roads-meet`
+
+Then, to run the entire analysis, type:
 
 `make planet-dfs`
